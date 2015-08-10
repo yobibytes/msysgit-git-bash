@@ -19,10 +19,12 @@ alias now='date +"%T"'
 alias nowtime=now
 alias nowdate='date +"%d-%m-%Y"'
 alias h='history'
-alias dir='ls -aF --color=auto --show-control-chars'
-alias ls='ls -aF --color=auto --show-control-chars'
-alias ll='ls -al --color=auto'
-alias l.='ls -d .* --color=auto'
+alias du='du -h'
+alias dir='ls -p --color=auto --show-control-chars'
+alias ls='ls -p --color=auto --show-control-chars'
+alias l='ls -l --color=auto --show-control-chars'
+alias ll='ls -la --color=auto --show-control-chars'
+alias l.='ls -d .* --color=auto --show-control-chars'
 alias ss='stat --printf="%A\t%a\t%h\t%U\t%G\t%s\t%.19y\t%n\n"'
 alias c='clear'
 alias traceroute='tracert -d'
@@ -31,6 +33,10 @@ alias html2text="w3m -dump -T 'text/html'"
 alias untar="tar -zxvf"
 alias cd..='cd ..'
 alias ..='cd ..'
+
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
 
 alias ga='git add '
 alias gb='git branch '
