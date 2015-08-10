@@ -1,3 +1,10 @@
+#
+# additional tools for windows:
+# * wget: http://www.gnu.org/software/wget/
+# * nmap: https://nmap.org/download.html
+# * nc: https://nmap.org/ncat/
+#
+
 # command prompt
 source ~/bin/50_prompt.sh
 
